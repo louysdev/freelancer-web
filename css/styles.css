@@ -42,3 +42,13 @@ body {
     background-color: var(--primario);
     color: var(--negro);
 }
+
+@media (min-widht: 480px) {
+    h1 {
+
+    }
+}
+
+@media (min-widht: 780px) {
+    
+}
