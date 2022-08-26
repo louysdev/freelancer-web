@@ -5,9 +5,12 @@
     --secundario: #0097a7;
     --gris: #757575;
 }
-
 html {
     font-size: 62.5%;
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
 }
 body {
     font-size: 16px;
@@ -54,4 +57,6 @@ body {
     background-image: url(../img/hero.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    height: 45rem;
+    padding: 20px;
 }
