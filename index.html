@@ -99,7 +99,7 @@
                 <!-- Titulo -->
                 <h3>E-Commerce</h3>
                 <!-- Icono -->
-                <div class="iconos">
+                <div class="icon">
                     <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-credit-card" width="40" height="40" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
                         <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
                         <rect x="3" y="5" width="18" height="14" rx="3" />
@@ -112,7 +112,6 @@
                 <p>Perspiciatis impedit laboriosam quo aliquam, sit, repudiandae eaque vel dolore exercitationem velit, culpa numquam dolores. Unde hic deleniti inventore quibusdam, non nobis.</p>
             </section>
         </div>
-    </main>
     
     <!-- Otra seccion -->
     <section>
@@ -120,34 +119,36 @@
         <h2>Contacto</h2>
 
         <!-- Formulario -->
-        <form> <!-- 13 -->
+        <form class="formulario"> <!-- 13 -->
             <!-- Elemento del formulario -->
             <fieldset> <!-- 13 -->
                 <legend>Llena todo los campos para contactarme</legend> <!-- 13 -->
-                <div>
-                    <label>Nombre</label> <!-- 14 -->
-                    <input type="text" placeholder="Your Name"> <!-- 15 -->
-                </div> 
 
-                <div>
-                    <label>Telefono</label>
-                    <input type="tel" placeholder="Your Telephone">
-                </div> 
-                
-                <div>
-                    <label>Correo</label>
-                    <input type="email" placeholder="Your Email">
-                </div> 
-
-                <div>
-                    <label>Mensaje</label>
-                    <textarea></textarea>
+                <div class="contenedor-campos">
+                    <div class="campos">
+                        <label>Nombre</label> <!-- 14 -->
+                        <input type="text" placeholder="Your Name"> <!-- 15 -->
+                    </div>
+                    <div class="campos">
+                        <label>Telefono</label>
+                        <input type="tel" placeholder="Your Telephone">
+                    </div>
+                    
+                    <div class="campos">
+                        <label>Correo</label>
+                        <input type="email" placeholder="Your Email">
+                    </div>
+                    <div class="campos">
+                        <label>Mensaje</label>
+                        <textarea></textarea>
+                    </div>
                 </div>
 
                 <div><input type="submit" value="Send"></div>
             </fieldset>
         </form>
     </section>
+</main>
 
     <!-- Footer -->
     <footer> <!-- 7 -->
