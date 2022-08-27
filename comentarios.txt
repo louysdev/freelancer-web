@@ -1,0 +1,47 @@
+Comentarios de index.html:
+
+1- Etiqueta principal de HTML, donde iran todo el codigo 
+2- Es donde va todo lo que se va a cargar antes del contenido del HTML
+3- Utilizado para enlacer un hoja de estilos de CSS con el HTML, el atributo rel es para especificar que se va a usar y href para la ruta del archivo
+4- Utilizado para mejorar la carga de la pagina web, cargando un elementos previamente, es bueno usarlo cuando cargamos algo externo al html.
+5- Utilizado para utilizar un archivo para que el diseño de la pagina se similar en varios navegadores.
+6- Etiqueta en la cual ira todo el cuerpo da la pagina.
+7- Etiquetas usadas para separa el contenido, no aportan nada a la pagina, pero si para estructura de una mejor manera el codigo, <header> se usa para envolver el titulo de la pagina, <section> para dividir en distintas secciones el contenido, <main> para ubicar el contenido principal de la pagina, <footer> para ubicar el pie de pagina o el contenido final de la pagina, por ultimo esta <div> este es usado para cuando no exista lugar donde usar las etiquetas anteriores.
+8- usados para agregar titulos en las paginas a mayor numero mas pequeño sera el titulo.
+9- Etiquetas usadas para implementar una barra de navegacion, <nav> es la principal donde se almacena los enlances, dentro de estas va <a> que son los enlaces en estos "href" es para indicar a que archivo se va dirigir y dentro de las etiquetas va el texto del enlace.
+10- Span es usado para dividir el contenido de una etiqueta, eso para trabajar con el aparte.
+11- Codigo para mostra un icono en la pagina, esto se trae de un sitio web.
+12- Para escribir parrafos en el sitio web.
+13- Estas etiquetas son usadas para implementar un formulario en la pagina, <form> es la principal aqui dentro va el contenido, <fieldset> hace referencia al contenido que ira dentro del formulario y <legend> dentro de esta etiqueta es donde ira el titulo del forumario.
+14- Agregar una texto en la pagina, este caso se uso para el formulario.
+15- Agregar un campo de texto para en la pagina, type es para especificar que se ingresara aqui, puede ser emial, text, tel, number (esto mostrara caracteres diferentes en el teclado de un dispositivo) y placeholder es para poner texto dentro de la caja.
+
+
+Comentarios de styles.css:
+
+Css funciona de la siguiente manera, primero se tiene que invocar el css en el html, luego en el elemento que se va a aplicar el estilo se le agrega una clase para que se puedar referenciar a el en el css y agregar caracteristicas para el diseño.
+
+Hay varias cosas a tener en cuenta en css, primero la especificidad, esto quiere decir que si uno pone dos atributos para un mismo elemento el orden importa, se va a implementar el ultimo que se puso. Y las diferentes formas de hacer referencia a un elemento, existen varias tecnicas como por id, por clase... La mas recomendable es por clase, ya que se puede aplicar los efecto a varios elemtnos en el html, por id solo seria a un unico elemento.
+
+Hay otra cosa tambien ue son los estilos para escribir codigo, hay varias formas como BEM, por modulos y por utilidades, no entiendo mucho esto pero por lo que se, por ahora solo hemos usasdo por modulos y utilidades, creo que los modulos son las referencia a un unico elemtno y utilidades es especificar a que elemento de la clase se le hara el estilo.
+
+En css hay varias maneras de
+
+1- Usado para agregar valores por defecto para usar mas adelante.
+2- Para aplicar un estilo predifinido a los elementos de la pagina web, sirve para dos cosas, para que los 1rem equivalga a 10 px y para que no se vea afectado el padding el tamaño de los ementos en un futuro
+3- Establecer el tamaño de la fuente del texto
+4- Usados como recomendacio para que los elementos en el html tengan un estilo por defecto mientras e realiza el desarrollo.
+5- Para alinear el texto
+6- agregar un color de fondo, en este caso usa un valor predefinido en root, con el uso de var().
+7- Establecer el tamaño en ancho max de un elemento.
+8- Atributo usado para agregar un padding al elemento, esta es la manera mas corta de acerlo porque lo da de manera general, en total son 4 posiciones para dar el padding top, bottom, left, right, esto si se haria de forma indivdual, pero con margin se hace e la misma linea, los dos campos hacen referencia a cada lado, cuando en css los 4 lados son iguales se deja solo 1, cuando dos son iguales, solo se pone dos campos.
+9- Usado para implementar flexbox al diseño del elemento. Es usado para agrupar de una manera los componentes de un elemento.
+10- Para definir la orientacion de los elementos colum es para ordenarlos de manera vertical, y row en forma de fila. No se puede usar si no tiene flex box antes.
+11- Para alinear los elemtnos cuando se utiliza row.
+12- Para alinear los elemento cuando se usa colum.
+13- Los media queries son usados para determinar que estilo se va a usar en base al tamaño de pantalla, por ejemplo si la pantalla es de 500px se usara el diseño que este dentro de este. Los tamaños de pantalla estandares son 768px, 1024px, 1440px...
+14- Agregar color al elemento, en este al enlace.
+15- Para quitar la barra inferior de los enlaces, tambien se puede usar para agregar tachar el texto.
+16- Para darle estilo al texto, como negrita o italica. Tambien para determinar el tamaño de la fuente externa que se quiere usar.
+17- Agregar padding general al elemento.
+18- 
