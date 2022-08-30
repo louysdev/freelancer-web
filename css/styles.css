@@ -9,6 +9,7 @@
 html { /* 2 */
     font-size: 62.5%; /* 3 */
     box-sizing: border-box;
+    scroll-snap-type: y mandatory;
 }
 *, *:before, *:after { /* 2 */
     box-sizing: inherit;
@@ -119,6 +120,12 @@ h1, h2, h3 { /* 4 */
     display: flex;
     align-items: flex-end;
 }
+.servicios,
+.navegacion-principal,
+.formulario {
+    scroll-snap-align: center;
+    scroll-snap-stop: always;
+}
 @media (min-width: 768px) {
     .servicios {
         display: grid;
@@ -200,4 +207,7 @@ h1, h2, h3 { /* 4 */
     .w-sm-100{
         width: auto;
     }
+}
+.footer {
+    text-align: center;
 }
